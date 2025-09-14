@@ -1,0 +1,94 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    background-color: hsl(0, 0%, 8%);
+}
+
+@font-face {
+    font-family: 'Macaco';
+    src: url('assets/fonts/static/Inter-Bold.ttf') format(truetype),
+    url('assets/fonts/static/Inter-Regular.ttf') format(truetype),
+    url('assets/fonts/static/Inter-SemiBold.ttf') format(truetype);
+    font-weight: normal;
+    font-style: normal;
+}
+
+#container {
+    background-color: hsl(0, 0%, 12%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 600px;
+    width: 400px;
+    position: relative;
+    top: 75px;
+    border-radius: 10px;
+}
+
+#container p {
+    margin-bottom: 9px;
+}
+
+#p1 {
+    font-size: xx-large;
+    font-family: Macaco;
+    color: #fff;
+    font-weight: normal;
+}
+
+#p2 {
+    font-family: Macaco;
+    color: hsl(75, 94%, 57%);
+}
+
+#p3 {
+    color: #fff;
+    font-size: large;
+    margin-top: 20px;
+}
+
+#img {
+    border-radius: 50px;
+    margin-bottom: 25px;
+    width: 90px;
+    border: 1px;
+}
+
+#informações {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    bottom: 13px;
+}
+
+#bottons {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    top: 20px;
+}
+
+.botton {
+    margin-bottom: 15px;
+    padding: 15px 95px;
+    background-color: hsl(0, 0%, 20%);
+    border: 0;
+    font-family: Macaco;
+    color: #fff;
+    border-radius: 10px;
+}
+
+.botton:hover{
+    background-color: hsl(75, 94%, 57%);
+    color:hsl(0, 0%, 12%)
+}
+
